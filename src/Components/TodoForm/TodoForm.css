@@ -1,0 +1,27 @@
+.todo-form  {
+    max-width: 550px;
+    height: auto;
+    padding: 10px 20px;
+    background-color: rgb(40, 200, 200);
+}
+
+.todo-form form {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.todo-form input {
+    width: 250px;
+    height: 25px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+
+}
+
+.add-btn {
+    padding: 3px 30px;
+    font-size: 18px;
+}
