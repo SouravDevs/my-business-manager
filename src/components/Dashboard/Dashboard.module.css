@@ -1,0 +1,12 @@
+.dashboard {
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgb(202, 215, 239);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard h1 {
+  text-align: center;
+}

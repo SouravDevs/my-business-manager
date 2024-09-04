@@ -1,17 +1,11 @@
 import { useState } from "react";
 import "./App.css";
-import TodoForm from "./Components/TodoForm/TodoForm";
-import TodoList from "./Components/TodoList/TodoList";
-import { data } from "./Database/Data";
+import Home from "./components/Home/Home";
 
 function App() {
-  const [database, setDatabase] = useState(data);
-  console.log(data)
-
   return (
     <>
-      <TodoForm setDatabase={setDatabase} />
-      <TodoList database={database} />
+      <Home />
     </>
   );
 }

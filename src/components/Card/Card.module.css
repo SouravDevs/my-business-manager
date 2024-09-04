@@ -1,0 +1,43 @@
+.card {
+    width: 100%;
+    padding: 10px 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.cards {
+    width: 200px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: rgb(247, 135, 94);
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+}
+
+.cards h3 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.cards p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.cards p span {
+    font-weight: 600;
+    font-size: 22px;
+}

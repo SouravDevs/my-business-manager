@@ -1,0 +1,18 @@
+.user-profile {
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba(112, 226, 230, 0.663);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.user-profile p {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 480px) {
+    .user-profile p {
+        font-size: 1.2rem;
+    }
+}
